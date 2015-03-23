@@ -13,13 +13,13 @@ describe 'App' do
   }
 
   before(:each) do
-    # @url = 'http://localhost:8069/xmlrpc'
-    @url = 'http://192.168.2.191:8069/xmlrpc'
+    @url = 'http://localhost:8069/xmlrpc'
+    # @url = 'http://192.168.2.191:8069/xmlrpc'
     # @db_password = 'admin'
     @username = 'admin'
     @password = 'admin'
-    # @database = 'bhs-development'
-    @database = 'bhs_development'
+    @database = 'bhs-development'
+    # @database = 'bhs_development'
   end
 
   describe 'iqc_base.batch' do
